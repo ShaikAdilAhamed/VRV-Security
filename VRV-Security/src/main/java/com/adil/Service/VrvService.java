@@ -1,5 +1,7 @@
 package com.adil.Service;
 
-public class VrvService {
+import java.io.FileNotFoundException;
 
+public interface VrvService {
+	public String readFile() throws FileNotFoundException;
 }
